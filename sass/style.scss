@@ -1,0 +1,14 @@
+@import 'base';
+
+main {
+	max-width: $content-width;
+    margin: 0 auto;
+	color: $font-color;
+    text-align: center;
+	
+    h1 {
+		font-size: $header-size;
+        margin:100px;
+	}
+}
+
