@@ -1,5 +1,11 @@
 // Variables
 
-$header-size: 2em;
-$font-color: #343434;
-$content-width: 1200px;
+$n: 12;
+$t: 3.62s;
+$r0: 11;
+$r1: 255;
+$dr: round(($r1 - $r0)/$n);
+$w: 0.75em;
+$h: 4.5em;
+$k: .06;
+$dt: $k*$t/$n;
